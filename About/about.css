@@ -1,0 +1,33 @@
+.search-bar {
+    position: absolute;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .search-bar button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10 5px 5px 0;
+  }
+  
+  .search-bar button i {
+    font-size: 18px;
+  }
+ 
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }

@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-16BJ7W3HPE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-16BJ7W3HPE');
+</script>
+
 <title>Map Construct KC </title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./style.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -65,7 +75,7 @@
           Info
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownInfo">
-          <a class="dropdown-item" href="C:\Users\karaf\bootcamp\mapconstructkc\About\about.html">About Us </a>
+          <a class="dropdown-item" href="C:\Users\karaf\bootcamp\mapconstructkc\About\home.html">About Us </a>
           <a class="dropdown-item" href="C:\Users\karaf\bootcamp\mapconstructkc\Gallery\home.html">Gallery</a>
           <a class="dropdown-item" href="C:\Users\karaf\bootcamp\mapconstructkc\Blog\home.html"> Blog</a>
         </div>
@@ -171,12 +181,12 @@
       <p>A sales tax audit verifies if a business has correctly collected and remitted the owed sales tax to the state. Let us assist you through this process!</p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
       <p class="w3-large">Permits and Code Management</p>
       <p>Navigating permits and codes can be daunting. Let us simplify the process for you.</p>
     </div>
     <div class="w3-quarter">
-      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
       <p class="w3-large">Investment Property Analysis</p>
       <p>Deciphering property evaluations and determining whether a property is worth exploring can be daunting, especially for newcomers to rental property investment. We simplify this complex analysis for you.</p>
     </div>
@@ -322,36 +332,64 @@
 <!-- Contact Section -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
   <h3 class="w3-center">CONTACT</h3>
-  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  <p class="w3-center w3-large">Let's get in touch. Send us a message:</p>
   <div style="margin-top:48px">
-    <style> .w3-container { text-align: center; } </style> <div class="w3-container" style="margin-top:48px"> <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> <span style="vertical-align:middle">Chicago, US</span></p> <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> <span style="vertical-align:middle">Phone: +00 151515</span></p> <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i> <span style="vertical-align:middle">Email: <a href="mailto:mail@mail.com">mail@mail.com</a></span></p> </div>
+    <style> .w3-container { text-align: center; } </style>
+    <div class="w3-container" style="margin-top:48px">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> <span style="vertical-align:middle"> Kansas City, Missouri</span></p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> <span style="vertical-align:middle">Phone:(512) 994-9027</span></p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i> <span style="vertical-align:middle">Email: <a href="mailto:info@mapconstructkc.com">info@mapconstructkc.com</a></span></p>
+    </div>
     <br>
-    <style> .w3-container { text-align: center; } .w3-input { width: 40%; margin: 0 auto; display: block; } </style> <div class="w3-container" style="padding:0px 16px"> <form action="/action\_page.php" target="\_blank"> <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p> <p><input class="w3-input w3-border" type="email" placeholder="Email" required name="Email"></p> <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p> <p><textarea class="w3-input w3-border" placeholder="Message" required name="Message" style="height:200px"></textarea></p> <p> <button class="w3-button w3-black" type="submit"> <i class="fa fa-paper-plane"></i> SEND MESSAGE </button> </p> </form> </div>
+    <style> .w3-container { text-align: center; } .w3-input { width: 40%; margin: 0 auto; display: block; } </style>
+    <div class="w3-container" style="padding:0px 16px">
+      <form action="mailto:info@mapconstructkc.com" method="post" enctype="text/plain">
+        <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-border" type="email" placeholder="Email" required name="Email"></p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+        <p><textarea class="w3-input w3-border" placeholder="Message" required name="Message" style="height:200px"></textarea></p>
+        <p>
+          <button class="w3-button w3-black" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+    </div>
+  </div>
+
+
+<div id="chat-container">
+    <div id="chat-messages"></div>
+    <input type="text" id="user-input" placeholder="Type a message...">
 </div>
+
+
 
     <!-- Image of location/map -->
     <img src="" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
   </div>
-</div>
+
 
 <footer class="w3-center w3-black w3-padding-64"> <div class="row"> <div class="col-lg-3 col-md-6 col-sm-6"> <h4>Map Construct KC</h4>
   <p><a href="https://www.google.com/maps/place/800+W+75th+St,+Kansas+City,+MO+64114" target="_blank">800 W 75th St, Kansas City, MO 64114</a></p>
    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.9947855522455!2d-94.60138572405863!3d38.992615371703856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c0efecd9c0a4c9%3A0x7c024479f12b6582!2sMAP%20Construct!5e0!3m2!1sen!2sus!4v1708709649421!5m2!1sen!2sus" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-    <div class="col-lg-3 col-md-6 col-sm-6"> <h4>Contact Us</h4> <p>info@gmail.com</p> <p>+91 98765 43210</p> </div>
+    <div class="col-lg-3 col-md-6 col-sm-6"> <h4>Contact Us</h4> <p>info@mapconstructkc.com <p>(512) 994-9027
+    </p> </div>
      <div class="col-lg-3 col-md-6 col-sm-6"> <h4></h4> <ul class="list-unstyled">
-       <li><a href="#">HOME</a></li>
-        <li><a href="#">SERVICES</a></li> 
-        <li><a href="#">ABOUT US</a></li>
-         <li><a href="#">PROJECTS</a></li> </ul> </div> 
+       <li><a href="C:\Users\karaf\bootcamp\mapconstructkc\Home\home.html">HOME</a></li>
+        <li><a href="C:\Users\karaf\bootcamp\mapconstructkc\Residential\home.html">RESIDENTIAL SERVICES</a></li> 
+        <li><a href="C:\Users\karaf\bootcamp\mapconstructkc\About\home.html">ABOUT US</a></li>
+         <li><a href="C:\Users\karaf\bootcamp\mapconstructkc\Commerical\home.html">COMMERCIAL SERVICES</a></li> </ul> </div> 
          <div class="col-lg-3 col-md-6 col-sm-6"> <h4></h4> <ul class="list-unstyled">
-          <li><a href="#">GALLERY</a></li>
-           <li><a href="#">BLOG</a></li> 
-           <li><a href="#">AVAILABLE HOMES</a></li>
-            <li><a href="#">PAYMENT PORTAL</a></li> </ul> </div> 
+          <li><a href="C:\Users\karaf\bootcamp\mapconstructkc\Gallery\home.html">GALLERY</a></li>
+           <li><a href="C:\Users\karaf\bootcamp\mapconstructkc\Blog\home.html">BLOG</a></li> 
+           <li><a href="C:\Users\karaf\bootcamp\mapconstructkc\Available Homes\home.html">AVAILABLE HOMES</a></li>
+            <li><a href="https://buy.stripe.com/00g7uh0FNeHZ47KcMM">PAYMENT PORTAL</a></li> </ul> </div> 
 
         </div> <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right">
 
         </i>To the top</a> <div class="w3-xlarge w3-section"> <i class="fa fa-facebook-official w3-hover-opacity"></i> <i class="fa fa-instagram w3-hover-opacity"></i> <i class="fa fa-snapchat w3-hover-opacity"></i> <i class="fa fa-pinterest-p w3-hover-opacity"></i> <i class="fa fa-twitter w3-hover-opacity"></i> <i class="fa fa-linkedin w3-hover-opacity"></i> 
+        
         </div> <p>© MAP Construct KC, LLC</p> </footer>
 
 
@@ -380,10 +418,10 @@ function w3_open() {
 function w3_close() {
     mySidebar.style.display = "none";
 }
-<script src="home.js"></script>
+
 
 </script>
-
+<script src="./script.js"></script>
 </body>
 
 

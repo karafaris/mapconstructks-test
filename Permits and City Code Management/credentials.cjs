@@ -1,1 +1,0 @@
-{"web":{"client_id":"475277566057-0tu7qfipcklo67b0drc246cvl413m76a.apps.googleusercontent.com","project_id":"map-construct-kc","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"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"}}
